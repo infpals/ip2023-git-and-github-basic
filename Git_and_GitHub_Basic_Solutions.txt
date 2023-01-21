@@ -1,0 +1,42 @@
+1. cd (depends on your pwd but the ending should be) ../Desktop
+2. mkdir PracticeGit
+3. cd PracticeGit 
+   git status
+4. git init
+5. touch Me.txt 
+   git add [. or Me.txt] 
+   git commit -m 'initial commit'
+6. nano Me.txt 
+   Hello!:) My name is [your name].
+   ^O 
+   ^X 
+   git add [. or Me.txt] 
+   git commit -m 'add my name'
+7. nano Me.txt 
+   I study [your degree].
+   ^O 
+   ^X 
+   touch Colors.txt 
+   git add Me.txt 
+   git commit -m 'add my degree'
+8. git add [. or Colors.txt] 
+   git commit -m 'add Colors.txt file'
+9. git log
+10. git diff [hash of first commit found in git log]..[hash of last commit found in git log]
+11. [git into https://github.com/, click on New, Fill the repository name with Hello-World, change the repository to private and click Create repository]
+12. git remote add origin git@github.com:[your github account name]/Hello-World.git
+    git branch -M main
+    git push -u origin main
+13. nano Colors.txt 
+    [Your favourite color 1] 
+    [Your favourite color 2] 
+    [Your favourite color 3] 
+    ^O 
+    ^X  
+    git add [. or Colors.txt] 
+    git commit -m 'add my favourite 3 colors'  
+    git push
+14. cd ..
+    git clone git@github.com:infpals/ip2022-git-and-github-basic.git
+15. cd ip2022-git-and-github-basic 
+    git log
