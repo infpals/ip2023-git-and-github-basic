@@ -16,7 +16,7 @@ Commands covered on this workshop:
 - git commit
 - git log
 - git diff
-- git remove
+- git reset
 - git clone
 - git push
 
