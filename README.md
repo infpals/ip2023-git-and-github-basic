@@ -18,5 +18,5 @@ Commands covered on this workshop:
 - git diff
 - git reset
 - git clone
-- git push 
-– git pull
+- git push
+- git pull
