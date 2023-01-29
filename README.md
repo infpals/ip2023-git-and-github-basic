@@ -19,4 +19,4 @@ Commands covered on this workshop:
 - git reset
 - git clone
 - git push
-
+– git pull
